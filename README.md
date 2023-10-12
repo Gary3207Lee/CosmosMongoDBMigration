@@ -9,9 +9,11 @@
 - Assess Applications
   * 1234 </br>
 
-- Assess Source Databases
+- Check Cosmos DB features, syntax and limits
   * [Azure Cosmos DB for MongoDB (4.2 server version): Supported features and syntax](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/feature-support-42)
-  * [Limits and Quotas](https://learn.microsoft.com/en-us/azure/cosmos-db/concepts-limits#resource-limits)  
+  * [Limits and Quotas](https://learn.microsoft.com/en-us/azure/cosmos-db/concepts-limits#resource-limits) </br>
+
+- Assess Source Databases
   * [Azure Data Studio for MongoDB Extension](https://learn.microsoft.com/en-us/sql/azure-data-studio/extensions/database-migration-for-mongo-extension?view=sql-server-ver16)
   * [Migration Assessment Helper Shells](01_Assessment/01_01.Assessment_Shell.md) </br>
 
