@@ -29,6 +29,9 @@
 - Online vs Offline
   * [Offline/Online Pros & Cons](https://learn.microsoft.com/en-us/azure/postgresql/migrate/concepts-single-to-flexible#how-to-migrate-from-single-server-to-flexible-server)
 
+- Cosmos DB for Mongo DB RU-Base vs vCore
+  * 1234
+
 - Migration Method
   * [Offline: Single to Flexible Migration tool (Recommended)](https://learn.microsoft.com/en-us/azure/postgresql/migrate/concepts-single-to-flexible#single-to-flexible-migration-tool---overview)
   * [Offline: Migrate your PostgreSQL database by using dump and restore](https://learn.microsoft.com/en-us/azure/postgresql/migrate/how-to-migrate-using-dump-and-restore)
