@@ -12,6 +12,7 @@
   * [MongoDB compatibility and feature support with Azure Cosmos DB for MongoDB vCore](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/compatibility) </br>
 
 - Assess Applications
+  * Interview each Application / System Owner
   * Dependency Check </br>
 
 - Assess Source Databases
