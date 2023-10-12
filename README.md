@@ -39,22 +39,27 @@
 |         |                        | There is an impact on the source server's storage and compute if the migration runs for a long time. The impact needs to be monitored closely during migration. |
 
 - Cosmos DB for Mongo DB RU-Base vs vCore
-  * 1234
+  * [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model)
 
 - Migration Method
   * [Azure Cosmos DB API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/migration-choices#azure-cosmos-db-api-for-mongodb)
   * [Azure Cosmos DB for MongoDB vCore](02_02.Online_Migration_vCore.md)
 
 - Capacity Planning & Target Spec Sizing
+  * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
+  * [Estimate RU/s using the Azure Cosmos DB capacity planner - Azure Cosmos DB for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/estimate-ru-capacity-planner)
+  * [How to choose between standard (manual) and autoscale provisioned throughput](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer)
+  * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless)
+
 - Build Test Scenario for Post-Migration (DEV/UAT)
   * Unit Test for Important or Mission Critical Task
   * Performance Validation
 - Build Check Scenario for Post-Migration (PROD)
   * Check Server Configurations & Optimize if required
   * Check Data Consistency
-  * Check Statistics
-- [Backup & Recovery (RTO/RPO)](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-backup-restore)
-- [High Availability & BCDR](https://learn.microsoft.com/en-us/azure/reliability/reliability-postgresql-flexible-server?toc=%2Fazure%2Fpostgresql%2Ftoc.json&bc=%2Fazure%2Fpostgresql%2Fbreadcrumb%2Ftoc.json)
+
+- [Backup & Recovery (RTO/RPO)](https://learn.microsoft.com/en-us/azure/cosmos-db/online-backup-and-restore)
+- [High Availability & BCDR](https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability)
 
 ### 3. Rehearsal
 
@@ -78,3 +83,4 @@
 
 - Run System Check Scenario for Post-Migration(PROD)
 - Monitoring & Remedation
+- * [Best practices for scaling provisioned throughput (RU/s)](https://learn.microsoft.com/en-us/azure/cosmos-db/scaling-provisioned-throughput-best-practices)
