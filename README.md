@@ -86,3 +86,9 @@
 - Monitoring & Remedation
 - [Post-migration optimization steps when using Azure Cosmos DB's API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/post-migration-optimization)
 - [Best practices for scaling provisioned throughput (RU/s)](https://learn.microsoft.com/en-us/azure/cosmos-db/scaling-provisioned-throughput-best-practices)
+
+# Fast Track for Azure Support
+
+## Migration Journey with FTA
+
+![Migration Journey](./Image/05_02_FTA_Support.png)
