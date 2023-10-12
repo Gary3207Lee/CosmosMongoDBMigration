@@ -12,7 +12,7 @@
   * [MongoDB compatibility and feature support with Azure Cosmos DB for MongoDB vCore](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/compatibility) </br>
 
 - Assess Applications
-  * 1234 </br>
+  * Dependency Check </br>
 
 - Assess Source Databases
   * [Azure Data Studio for MongoDB Extension](https://learn.microsoft.com/en-us/sql/azure-data-studio/extensions/database-migration-for-mongo-extension?view=sql-server-ver16)
