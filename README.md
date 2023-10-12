@@ -35,7 +35,8 @@
 |         | - No restrictions in terms of database objects it can handle|           |
 | Online  | - Very minimal downtime to application. | - Replication used in online migration has multiple restrictions listed in this [doc](02_Planning/02_01.Restrictions.md) |
 |         | - Ideal for large databases and for customers having limited downtime requirements. | - Tough and much complex to execute than offline migration. |
-|         |                         | - Greater chances of failure due to complexity of migration. |
+|         |                        | - Greater chances of failure due to complexity of migration. |
+|         |                        | There is an impact on the source server's storage and compute if the migration runs for a long time. The impact needs to be monitored closely during migration. |
 
 - Cosmos DB for Mongo DB RU-Base vs vCore
   * 1234
