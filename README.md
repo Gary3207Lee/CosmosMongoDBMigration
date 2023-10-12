@@ -21,7 +21,7 @@
 - Check Business/Service Condition
   * Interview each Service / System Owner
   * Maximum available downtime for each system
-  * Available downtime schedule (Day & Time) for each system </br>
+  * Available downtime & schedule (Day & Time) for each system </br>
 
 ### 2. Planning
 
