@@ -91,4 +91,4 @@
 
 ## Migration Journey with FTA
 
-![Migration Journey](./Image/05_02_FTA_Support.png)
+![Migration Journey](./Image/00_02_FTA_Support.png)
