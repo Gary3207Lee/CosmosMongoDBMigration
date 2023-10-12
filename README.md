@@ -7,15 +7,15 @@
 ### 1. Assessment
 
 - Assess Applications
+  * 1234
+</br>
+
 - Assess Databases
   * [Azure Data Studio for MongoDB Extension](https://learn.microsoft.com/en-us/sql/azure-data-studio/extensions/database-migration-for-mongo-extension?view=sql-server-ver16)
   * [Migration Assessment Helper Shells](01_Assessment/01_01.Assessment_Shell.md)
 
-- Server Configuration & Feature Mapping
-  * [Single Server Extensions](https://learn.microsoft.com/en-us/azure/postgresql/single-server/concepts-extensions)
-  * [Flexible Server Extensions](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-extensions)
-
 - Check Business/Service Condition
+  * 1234
 
 ### 2. Planning
 
