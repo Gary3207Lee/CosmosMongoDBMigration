@@ -4,6 +4,8 @@
 
 ![Migration Journey](./Image/00_01_Migration_Journey.png)
 
+</br>
+
 ### 1. Assessment
 
 - Check Cosmos DB features, syntax and limits
@@ -24,9 +26,11 @@
   * Maximum available downtime for each system
   * Available downtime & schedule (Day & Time) for each system </br>
 
+</br>
+
 ### 2. Planning
 
-- Migration Timeline & Schedule
+- Migration Timeline & Schedule </br>
 - Online vs Offline
 
 | Mode | Pros  | Cons  |
@@ -40,31 +44,33 @@
 |         |                        | There is an impact on the source server's storage and compute if the migration runs for a long time. The impact needs to be monitored closely during migration. |
 
 - Cosmos DB for Mongo DB RU-Base vs vCore
-  * [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model)
+  * [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model) </br>
 
 - Migration Method
   * [Azure Cosmos DB API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/migration-choices#azure-cosmos-db-api-for-mongodb)
-  * [Azure Cosmos DB for MongoDB vCore](02_02.Online_Migration_vCore.md)
+  * [Azure Cosmos DB for MongoDB vCore](02_02.Online_Migration_vCore.md) </br>
 
 - Capacity Planning & Target Spec Sizing
   * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
   * [Estimate RU/s using the Azure Cosmos DB capacity planner - Azure Cosmos DB for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/estimate-ru-capacity-planner)
   * [How to choose between standard (manual) and autoscale provisioned throughput](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer)
-  * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless)
+  * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless) </br>
 
 - Build Test Scenario for Post-Migration (DEV/UAT)
   * Unit Test for Important or Mission Critical Task
   * Performance Validation
 - Build Check Scenario for Post-Migration (PROD)
   * Check Server Configurations & Optimize if required
-  * Check Data Consistency
+  * Check Data Consistency </br>
 
 - [Backup & Recovery (RTO/RPO)](https://learn.microsoft.com/en-us/azure/cosmos-db/online-backup-and-restore)
 - [High Availability & BCDR](https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability)
 
+</br>
+
 ### 3. Rehearsal
 
-- Rehearsal Migration in DEV/UAT Environment </br>
+- Rehearsal Migration in DEV/UAT Environment
   (Capture Resource Utilization and Elapsed Time)
 - Run Test Scenario for Post-Migration (DEV/UAT)
 - Review the result and take necessary actions
@@ -72,14 +78,20 @@
 - [Known Issues](03_01.Known_Issues.md)
 - [Troubleshooting Guides](03_02.Troubleshooting_Guides.md)
 
+</br>
+
 ### 4. Execution
 
 - Execute Migration including Production Environment
 - [Monitoring Guide for Online Migration](04_01.Monitoring.md)
 
+</br>
+
 ### 5. Cut-Over
 
 - System Cut-Over
+
+</br>
 
 ### 6. Post-Migration
 
