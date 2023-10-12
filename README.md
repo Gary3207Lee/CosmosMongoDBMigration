@@ -18,7 +18,9 @@
   * [Migration Assessment Helper Shells](01_Assessment/01_01.Assessment_Shell.md) </br>
 
 - Check Business/Service Condition
-  * 1234 </br>
+  * Interview each Service / System Owner
+  * Maximum available downtime for each system
+  * Available downtime schedule (Day & Time) for each system </br>
 
 ### 2. Planning
 
