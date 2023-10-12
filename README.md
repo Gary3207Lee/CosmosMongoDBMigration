@@ -68,12 +68,13 @@
 - Run Test Scenario for Post-Migration (DEV/UAT)
 - Review the result and take necessary actions
 - Apply additional WBS to Migration Plan if required
-- [Common Errors](https://learn.microsoft.com/en-us/azure/postgresql/migrate/common-errors-and-special-scenarios-fms)
-- [Troubleshooting Guides](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-troubleshooting-guides)
+- [Known Issues](03_01.Known_Issues.md)
+- [Troubleshooting Guides](03_02.Troubleshooting_Guides.md)
 
 ### 4. Execution
 
 - Execute Migration including Production Environment
+- [Monitoring Guide for Online Migration](04_01.Monitoring.md)
 
 ### 5. Cut-Over
 
