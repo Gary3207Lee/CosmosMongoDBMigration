@@ -27,12 +27,15 @@
 
 - Migration Timeline & Schedule
 - Online vs Offline
-| Mode    | Pros                                        | Cons                      |
-|---------|---------------------------------------------|---------------------------|
+
+| Mode | Pros  | Cons  |
+|------|-------|-------|
 | Offline | - Simple, easy and less complex to execute. | Downtime to applications. |
 |         | - Very fewer chances of failure.            |                           |
 |         | - No restrictions in terms of database objects it can handle|           |
-| Online | Tutorial: Migrate Azure Database for PostgreSQL - Single Server to Flexible Server (Portal) | [Link](https://learn.microsoft.com/en-us/azure/postgresql/migrate/how-to-migrate-single-to-flexible-portal) |
+| Online  | - Very minimal downtime to application. | - Replication used in online migration has multiple restrictions listed in this [doc](02_Planning/02_01.Restrictions.md) |
+|         | - Ideal for large databases and for customers having limited downtime requirements. | - Tough and much complex to execute than offline migration. |
+|         |                         | - Greater chances of failure due to complexity of migration. |
 
 - Cosmos DB for Mongo DB RU-Base vs vCore
   * 1234
