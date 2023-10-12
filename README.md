@@ -42,13 +42,8 @@
   * 1234
 
 - Migration Method
-  * [Offline: Single to Flexible Migration tool (Recommended)](https://learn.microsoft.com/en-us/azure/postgresql/migrate/concepts-single-to-flexible#single-to-flexible-migration-tool---overview)
-  * [Offline: Migrate your PostgreSQL database by using dump and restore](https://learn.microsoft.com/en-us/azure/postgresql/migrate/how-to-migrate-using-dump-and-restore)
-  * [Offline: Migrate your PostgreSQL database using export and import](https://learn.microsoft.com/en-us/azure/postgresql/migrate/how-to-migrate-using-export-and-import)
-  
-  * [Online: Single to Flexible Migration tool](https://learn.microsoft.com/en-us/azure/postgresql/migrate/concepts-single-to-flexible#single-to-flexible-migration-tool---overview)
-  * [Online: Minimal-downtime migration with DMS](https://learn.microsoft.com/en-us/azure/postgresql/migrate/how-to-migrate-online)
-  * [Online: Minimal-downtime migration with Debezium Kafka](https://debezium.io/releases/)
+  * [Azure Cosmos DB API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/migration-choices#azure-cosmos-db-api-for-mongodb)
+  * [Azure Cosmos DB for MongoDB vCore](02_02.Online_Migration_vCore.md)
 
 - Capacity Planning & Target Spec Sizing
 - Build Test Scenario for Post-Migration (DEV/UAT)
