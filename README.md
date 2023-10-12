@@ -27,7 +27,12 @@
 
 - Migration Timeline & Schedule
 - Online vs Offline
-  * [Offline/Online Pros & Cons](https://learn.microsoft.com/en-us/azure/postgresql/migrate/concepts-single-to-flexible#how-to-migrate-from-single-server-to-flexible-server)
+| Mode | Pros | Cons |
+|------|------|------|
+| Offline | - Simple, easy and less complex to execute. | Downtime to applications. |
+|         | - Very fewer chances of failure.            |                           |
+|         | - No restrictions in terms of database objects it can handle|           |
+| Online | Tutorial: Migrate Azure Database for PostgreSQL - Single Server to Flexible Server (Portal) | [Link](https://learn.microsoft.com/en-us/azure/postgresql/migrate/how-to-migrate-single-to-flexible-portal) |
 
 - Cosmos DB for Mongo DB RU-Base vs vCore
   * 1234
