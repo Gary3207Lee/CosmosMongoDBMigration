@@ -27,8 +27,8 @@
 
 - Migration Timeline & Schedule
 - Online vs Offline
-| Mode | Pros | Cons |
-|------|------|------|
+| Mode    | Pros                                        | Cons                      |
+|---------|---------------------------------------------|---------------------------|
 | Offline | - Simple, easy and less complex to execute. | Downtime to applications. |
 |         | - Very fewer chances of failure.            |                           |
 |         | - No restrictions in terms of database objects it can handle|           |
