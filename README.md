@@ -34,7 +34,7 @@
 
 - Azure Cosmos DB Mapping
   * Data Model
-  * RU-Base vs vCore Base
+  * RU-Base vs vCore Base: [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model)
   * Dedicated vs Shared Throughput
   * Shard Key </br>
 
@@ -43,9 +43,6 @@
   * [Estimate RU/s using the Azure Cosmos DB capacity planner - Azure Cosmos DB for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/estimate-ru-capacity-planner)
   * [How to choose between standard (manual) and autoscale provisioned throughput](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer)
   * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless) </br>
-
-- Cosmos DB for Mongo DB RU-Base vs vCore
-  * [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model) </br>
   
 - Online vs Offline
 
