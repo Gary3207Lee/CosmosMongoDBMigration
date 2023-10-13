@@ -78,7 +78,7 @@
 - Run Test Scenario for Post-Migration (DEV/UAT)
 - Review the result and take necessary actions
 - Apply additional WBS to Migration Plan if required
-- [Known Issues](03_01.Known_Issues.md)
+- [Known Issues with Databricks](03_Rehearsal/03_01.Known_Issues_with_Databricks.md)
 - [Troubleshooting Guides](03_02.Troubleshooting_Guides.md)
 
 </br>
