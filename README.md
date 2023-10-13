@@ -33,7 +33,6 @@
 - Migration Timeline & Schedule </br>
 
 - Azure Cosmos DB Mapping
-  * Data Model
   * RU-Base vs vCore Base: [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model)
   * Dedicated vs Shared Throughput: [Introduction to provisioned throughput in Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/set-throughput)
   * Shard Key: [Choose a partition key](https://learn.microsoft.com/en-us/azure/cosmos-db/partitioning-overview#choose-partitionkey) </br>
