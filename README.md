@@ -31,6 +31,16 @@
 ### 2. Planning
 
 - Migration Timeline & Schedule </br>
+
+- Capacity Planning & Target Spec Sizing
+  * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
+  * [Estimate RU/s using the Azure Cosmos DB capacity planner - Azure Cosmos DB for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/estimate-ru-capacity-planner)
+  * [How to choose between standard (manual) and autoscale provisioned throughput](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer)
+  * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless) </br>
+
+- Cosmos DB for Mongo DB RU-Base vs vCore
+  * [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model) </br>
+  
 - Online vs Offline
 
 | Mode | Pros  | Cons  |
@@ -43,18 +53,9 @@
 |         |                        | - Greater chances of failure due to complexity of migration. |
 |         |                        | There is an impact on the source server's storage and compute if the migration runs for a long time. The impact needs to be monitored closely during migration. |
 
-- Cosmos DB for Mongo DB RU-Base vs vCore
-  * [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model) </br>
-
 - Migration Method
   * [Azure Cosmos DB API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/migration-choices#azure-cosmos-db-api-for-mongodb)
   * [Azure Cosmos DB for MongoDB vCore](02_Planning/02_02.Mongo_vCore_Migration.md) </br>
-
-- Capacity Planning & Target Spec Sizing
-  * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
-  * [Estimate RU/s using the Azure Cosmos DB capacity planner - Azure Cosmos DB for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/estimate-ru-capacity-planner)
-  * [How to choose between standard (manual) and autoscale provisioned throughput](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer)
-  * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless) </br>
 
 - Build Test Scenario for Post-Migration (DEV/UAT)
   * Unit Test for Important or Mission Critical Task
