@@ -35,8 +35,8 @@
 - Azure Cosmos DB Mapping
   * Data Model
   * RU-Base vs vCore Base: [What is RU-based and vCore-based Azure Cosmos DB for MongoDB?](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/choose-model)
-  * Dedicated vs Shared Throughput
-  * Shard Key </br>
+  * Dedicated vs Shared Throughput: [Introduction to provisioned throughput in Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/set-throughput)
+  * Shard Key: [Choose a partition key](https://learn.microsoft.com/en-us/azure/cosmos-db/partitioning-overview#choose-partitionkey) </br>
 
 - Capacity Planning & Target Spec Sizing
   * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
