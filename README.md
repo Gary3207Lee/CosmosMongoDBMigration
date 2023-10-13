@@ -42,7 +42,8 @@
   * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
   * [Estimate RU/s using the Azure Cosmos DB capacity planner - Azure Cosmos DB for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/estimate-ru-capacity-planner)
   * [How to choose between standard (manual) and autoscale provisioned throughput](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer)
-  * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless) </br>
+  * [How to choose between provisioned throughput and serverless](https://learn.microsoft.com/en-us/azure/cosmos-db/throughput-serverless)
+  * [Databricks Cluster Sizing for Online Migration](02_Planning/02_03.Databricks_Cluster_Sizing.md) </br>
   
 - Online vs Offline
 
