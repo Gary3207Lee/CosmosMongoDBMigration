@@ -48,7 +48,7 @@
 
 - Migration Method
   * [Azure Cosmos DB API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/migration-choices#azure-cosmos-db-api-for-mongodb)
-  * [Azure Cosmos DB for MongoDB vCore](02_02.Online_Migration_vCore.md) </br>
+  * [Azure Cosmos DB for MongoDB vCore](02_02.Mongo_vCore_Migration.md) </br>
 
 - Capacity Planning & Target Spec Sizing
   * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
