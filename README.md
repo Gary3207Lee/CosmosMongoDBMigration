@@ -32,6 +32,12 @@
 
 - Migration Timeline & Schedule </br>
 
+- Azure Cosmos DB Mapping
+  * Data Model
+  * RU-Base vs vCore Base
+  * Dedicated vs Shared Throughput
+  * Shard Key </br>
+
 - Capacity Planning & Target Spec Sizing
   * [Convert the number of vCores or vCPUs in your nonrelational database to Azure Cosmos DB RU/s](https://learn.microsoft.com/en-us/azure/cosmos-db/convert-vcore-to-request-unit)
   * [Estimate RU/s using the Azure Cosmos DB capacity planner - Azure Cosmos DB for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/estimate-ru-capacity-planner)
