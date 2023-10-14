@@ -91,4 +91,6 @@
   </code>
   </pre>
 
-2. 뭐하지?
+2. Create ADB (Skipped)
+
+3. Configure ADB
