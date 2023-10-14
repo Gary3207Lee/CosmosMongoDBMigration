@@ -1,9 +1,9 @@
 # Step by Step Logging
 
-1. Create JSON File
+- Create JSON File
 
-  <pre>
-  <code>
+<pre>
+<code>
 {
     "version": 2,
     "servers": {
@@ -91,6 +91,6 @@
   </code>
   </pre>
 
-2. Create ADB (Skipped)
+- Create ADB (Skipped)
 
-3. Configure ADB
+- Configure ADB
