@@ -1,0 +1,87 @@
+{
+    "version": 2,
+    "servers": {
+        "sourceServer": {
+            "type": "MONGODB",
+            "name": "sourceServer",
+            "url": "mongodb+srv://***/?readPreference=secondary"
+        },
+        "destinationServer": {
+            "type": "MONGODB",
+            "name": "destinationServer",
+            "url": "mongodb:/****"
+        },
+        "intermediateServer": {
+            "type": "COSMOSDB",
+            "name": "intermediateServer",
+            "url": "https://.documents.azure.com:443/",
+            "key": "x"
+        },
+        "statusServer": {
+            "type": "COSMOSDB",
+            "name": "statusServer",
+            "url": "https://.documents.azure.com:443/",
+            "key": "x"
+        }
+    },
+    "tasks": [
+        {
+            "migrationUnit": "COLLECTION",
+            "source": {
+                "serverName": "sourceServer",
+                "databases": [
+                    "mydb"
+                ],
+                "collections": [
+                    "mycollection"
+                ]
+            },
+            "destination": {
+                "serverName": "destinationServer",
+                "databases": [
+                    "mydb"
+                ],
+                "collections": [
+                    "mycollection"
+                ],
+                "throughput": 20000,
+                "migrationThroughput": 20000,
+                "scaling": "AUTOSCALE",
+                "shardKey": "myshardkey"
+            },
+            "intermediate": {
+                "serverName": "intermediateServer",
+                "databases": [
+                    "mydb"
+                ],
+                "collections": [
+                    "mycollection"
+                ],
+                "throughput": 20000
+            },
+            "excludedCollections": [
+                "system.views"
+            ],
+            "indexCreation":"ALL_INDEXES",
+            "uniqueConstraintViolationHandling": "IGNORE",
+            "idUnique" : true,
+            "splitQuery" : true,
+            "samplesPerPartition": 100,
+            "partitionSizeMB" : 16,
+            "enablePartitionLog" : true
+        }
+    ],
+    "status": {
+        "serverName": "statusServer",
+        "database": "migration-database",
+        "collection": "migration_status",
+        "throughput": 1000
+    },
+    "copyPartitions": 100,
+    "copyBatchSize": 30,
+    "streamingPartitions": 100,
+    "streamingBatchSize": 30,
+    "startStreamToIntermediate": false,
+    "startBulkCopy": true,
+    "startStreamToDestination": false
+}
