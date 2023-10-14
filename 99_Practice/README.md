@@ -1,0 +1,94 @@
+# Step by Step Logging
+
+1. Create JSON File
+
+  <pre>
+  <code>
+{
+    "version": 2,
+    "servers": {
+        "sourceServer": {
+            "type": "MONGODB",
+            "name": "sourceServer",
+            "url": "mongodb://#####"
+        },
+        "destinationServer": {
+            "type": "MONGODB",
+            "name": "destinationServer",
+            "url": "mongodb://#####"
+        },
+        "intermediateServer": {
+            "type": "COSMOSDB",
+            "name": "intermediateServer",
+            "url": "https://#####.documents.azure.com:443/",
+            "key": "#####"
+        },
+        "statusServer": {
+            "type": "COSMOSDB",
+            "name": "statusServer",
+            "url": "https://#####.documents.azure.com:443/",
+            "key": "#####"
+        }
+    },
+    "tasks": [
+        {
+            "migrationUnit": "COLLECTION",
+            "source": {
+                "serverName": "sourceServer",
+                "databases": [
+                    "MIGTestDB"
+                ],
+                "collections": [
+                    "MIGTestCollection"
+                ]
+            },
+            "destination": {
+                "serverName": "destinationServer",
+                "databases": [
+                    "MIGTestDB"
+                ],
+                "collections": [
+                    "MIGTestCollection"
+                ],
+                "throughput": 20000,
+                "migrationThroughput": 20000,
+                "scaling": "AUTOSCALE",
+                "shardKey": "itemcode"
+            },
+            "intermediate": {
+                "serverName": "intermediateServer",
+                "databases": [
+                    "IntermediateDB"
+                ],
+                "collections": [
+                    "IntermediateCollection"
+                ],
+                "throughput": 20000
+            },
+            "excludedCollections": [
+                "system.views"
+            ],
+            "uniqueConstraintViolationHandling":"IGNORE",
+            "indexCreation":"ALL_INDEXES",
+            "batchCount":30
+        }
+    ],
+    "status": {
+        "serverName": "statusServer",
+        "database": "StatusDB",
+        "collection": "StatusCollection",
+        "throughput": 1000
+    },
+    "copyPartitions": 100,
+    "copyBatchSize": 30,
+    "streamingPartitions": 100,
+    "streamingBatchSize": 30,
+    "startStreamToIntermediate": false,
+    "startBulkCopy": true,
+    "startStreamToDestination": false,
+    "offHeapMemory": false
+}
+  </code>
+  </pre>
+
+2. 뭐하지?
