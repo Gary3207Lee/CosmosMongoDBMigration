@@ -4,24 +4,24 @@
         "sourceServer": {
             "type": "MONGODB",
             "name": "sourceServer",
-            "url": "mongodb+srv://***/?readPreference=secondary"
+            "url": "mongodb://20.205.186.192:27020"
         },
         "destinationServer": {
             "type": "MONGODB",
             "name": "destinationServer",
-            "url": "mongodb:/****"
+            "url": "mongodb://cosmos-sea-mongo:a6BhcVFIi9Wkc4IYhQIQk1Ps6Sa4hDfdKyg4E2MoXGWNwjZVUvCnntHNmcuBOJK8voRoKGxk9LCj97TU6OjNCg==@cosmos-sea-mongo.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@cosmos-sea-mongo@"
         },
         "intermediateServer": {
             "type": "COSMOSDB",
             "name": "intermediateServer",
-            "url": "https://.documents.azure.com:443/",
-            "key": "x"
+            "url": "https://cosmos-sea-sql.documents.azure.com:443/",
+            "key": "785VUQzF39I1wTp1kLaozF4qQrgSDocg2F7UaVtYttyhh8Xxymjkgm65zQchAE9zQf8p53vZEoNt66o8Xvgrtw=="
         },
         "statusServer": {
             "type": "COSMOSDB",
             "name": "statusServer",
-            "url": "https://.documents.azure.com:443/",
-            "key": "x"
+            "url": "https://cosmos-sea-sql.documents.azure.com:443/",
+            "key": "785VUQzF39I1wTp1kLaozF4qQrgSDocg2F7UaVtYttyhh8Xxymjkgm65zQchAE9zQf8p53vZEoNt66o8Xvgrtw=="
         }
     },
     "tasks": [
@@ -30,32 +30,32 @@
             "source": {
                 "serverName": "sourceServer",
                 "databases": [
-                    "mydb"
+                    "MIGTestDB"
                 ],
                 "collections": [
-                    "mycollection"
+                    "MIGTestCollection"
                 ]
             },
             "destination": {
                 "serverName": "destinationServer",
                 "databases": [
-                    "mydb"
+                    "MIGTestDB"
                 ],
                 "collections": [
-                    "mycollection"
+                    "MIGTestDB"
                 ],
                 "throughput": 20000,
                 "migrationThroughput": 20000,
                 "scaling": "AUTOSCALE",
-                "shardKey": "myshardkey"
+                "shardKey": "itemcode"
             },
             "intermediate": {
                 "serverName": "intermediateServer",
                 "databases": [
-                    "mydb"
+                    "IntermediateDB"
                 ],
                 "collections": [
-                    "mycollection"
+                    "IntermediateCollection"
                 ],
                 "throughput": 20000
             },
@@ -73,8 +73,8 @@
     ],
     "status": {
         "serverName": "statusServer",
-        "database": "migration-database",
-        "collection": "migration_status",
+        "database": "StatusDB",
+        "collection": "StatusCollection",
         "throughput": 1000
     },
     "copyPartitions": 100,
