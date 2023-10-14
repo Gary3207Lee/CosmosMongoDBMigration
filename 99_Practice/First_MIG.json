@@ -4,12 +4,12 @@
         "sourceServer": {
             "type": "MONGODB",
             "name": "sourceServer",
-            "url": "#####"
+            "url": "mongodb://#####"
         },
         "destinationServer": {
             "type": "MONGODB",
             "name": "destinationServer",
-            "url": "#####"
+            "url": "mongodb://#####"
         },
         "intermediateServer": {
             "type": "COSMOSDB",
