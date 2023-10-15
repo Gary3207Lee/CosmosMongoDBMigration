@@ -1,6 +1,7 @@
 # Step by Step Logging
 
 - Create JSON File
+  * Based on two ~ three scenario, full Sample JSON is required.
 
 <pre>
 <code>
@@ -91,6 +92,26 @@
   </code>
   </pre>
 
-- Create ADB (Skipped)
+- Create ADB (Skipped) </br>
+
+</br>
 
 - Configure ADB
+  * ![Create a JOB](/99_Practice/Image/99_01.create_a_job.png)
+  * Put Task Name
+  * ![Main Class](/99_Practice/Image/99_02.main_class.png)
+  * ![Job_Cluster](/99_Practice/Image/99_03.job_cluster.png) </br>
+  Can I use single node cluster? Do I have to use shared cluster? </br>
+  * ![Add Jar File](/99_Practice/Image/99_04.add_jar_file.png)
+  * ![Add Dependency](/99_Practice/Image/99_05.add_dependent_library.png)
+  * Then Create.
+  * ![Configure](/99_Practice/Image/99_06.click_configure_in_compute.png)
+  * ![Spark Config](/99_Practice/Image/99_07.spark_config_in_Advanced_Option.png) </br>
+  Detail explanation is required. </br>
+  Need to have sample and guide based on cluster size and type. </br>
+  * ![Spark Config Error](/99_Practice/Image/99_08.spark_config_error.png)
+
+</br>
+
+- JOB Parameter
+  * ![JSON Upload](/99_Practice/Image/99_09.JSON_Upload.png)
