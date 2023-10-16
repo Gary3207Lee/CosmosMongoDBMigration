@@ -59,7 +59,7 @@
 
 - Migration Method
   * [Azure Cosmos DB API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/migration-choices#azure-cosmos-db-api-for-mongodb)
-  * [Azure Cosmos DB for MongoDB vCore](02_Planning/02_02.Mongo_vCore_Migration.md) </br>
+  * [MongoDB to Azure Cosmos DB for Mongo DB- Spark Utility User Guide](02_Planning/02_02.Mongo_vCore_Migration.md) </br>
 
 - Build Test Scenario for Post-Migration (DEV/UAT)
   * Unit Test for Important or Mission Critical Task
