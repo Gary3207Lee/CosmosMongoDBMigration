@@ -115,3 +115,8 @@
 
 - JOB Parameter
   * ![JSON Upload](/99_Practice/Image/99_09.JSON_Upload.png)
+  * ![Parameters](/99_Practice/Image/99_10.Parameters.png)
+
+- Run
+  * ![JOB Result](/99_Practice/Image/99_11.Result.png)
+  * ![TargetDB](/99_Practice/Image/99_12.TargetDB.png)
