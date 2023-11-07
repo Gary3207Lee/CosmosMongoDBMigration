@@ -58,9 +58,10 @@
 |         |                        | There is an impact on the source server's storage and compute if the migration runs for a long time. The impact needs to be monitored closely during migration. |
 
 - Migration Method
-  * [Azure Cosmos DB API for MongoDB](https://learn.microsoft.com/en-us/azure/cosmos-db/migration-choices#azure-cosmos-db-api-for-mongodb)
-  * [MongoDB to Azure Cosmos DB for Mongo DB Offline Migration - Spark Utility User Guide](02_Planning/02_02.Mongo_Offline_Spark_Utility.md)
-  * [MongoDB to Azure Cosmos DB for Mongo DB Online Migration - Spark Utility User Guide](02_Planning/02_02.Mongo_Online_Spark_Utility.md) </br>
+  * [Desktop Migration Tool (Offline)](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-migrate-desktop-tool?tabs=azure-cli)
+  * [MongoDB Native Tool (Offline)](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/tutorial-mongotools-cosmos-db)
+  * [Azure Database Migration Service (Online & Offline)](https://learn.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online?toc=%2Fazure%2Fcosmos-db%2Ftoc.json&bc=%2Fazure%2Fcosmos-db%2Fbreadcrumb%2Ftoc.json)
+  * [Azure Data Factory (Online & Offline)](https://learn.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db-mongodb-api?tabs=data-factory) </br>
 
 - Build Test Scenario for Post-Migration (DEV/UAT)
   * Unit Test for Important or Mission Critical Task
